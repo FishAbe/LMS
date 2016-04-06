@@ -1,5 +1,5 @@
 package lms.business;
-// comment made by ivan// comment made by ivan// comment made by ivan// comment made by ivan// comment made by ivan// comment made by ivan// comment made by ivan
+// comment made by ivan
 import java.io.Serializable;
 
 public class Book extends Publication implements Serializable {
