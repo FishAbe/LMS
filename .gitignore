@@ -17,3 +17,14 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+*.json
+*.fdt
+*.fdx
+*.fnm
+*.frq
+*.nrm
+*.prx
+*.tii
+*.tis
+*.gen
+*.lock

@@ -15,6 +15,11 @@ import lms.dataaccess.DataAccessFacade;
 public class Main {
 	
 	public static void main(String[] args) {
+		Employee emp=new Employee("fisseha", "Abebe", "x", "x", EmployeeRole.ADMIN);
+		Employee emp2=new Employee("fisseha", "Abebe", "y", "y", EmployeeRole.LIBRARIAN);
+		Employee emp3=new Employee("fisseha", "Abebe", "z", "z", EmployeeRole.ADMIN);
+		
+		
 		LibraryMember member = new LibraryMember("John");
 		Publication p = new Book(3, "1235","Sample Title");
 		LendableCopy c = new LendableCopy();
