@@ -1,5 +1,5 @@
 package application;
-	
+
 import java.io.IOException;
 
 import javafx.application.Application;
@@ -7,7 +7,7 @@ import javafx.stage.Stage;
 import lms.presentation.MainController;
 
 
-
+//class for main
 public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) throws IOException {
@@ -17,10 +17,10 @@ public class Main extends Application {
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
-		
-		
+
+
 	}
-	
+
 	public static void main(String[] args) {
 		launch(args);
 	}
